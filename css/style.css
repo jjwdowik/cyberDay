@@ -1,7 +1,7 @@
 /* Global */
 
 body {
-	font-family: 'Open Sans', sans-serif;
+	font-family:'Open Sans', sans-serif;
 	font-weight: 400;
 	font-size: 1em;
 	color: #8a8683;
@@ -23,6 +23,10 @@ a:visited {
 	text-decoration: none;
 }
 h2{padding-top:1em;}
+@font-face{
+	font-family:Neuro;
+	src:url(NEUROPOL.ttf);
+}
 
 
 
