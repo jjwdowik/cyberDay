@@ -6,7 +6,7 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale = 1.0, user-scalable = no">
-	<title>CyberDAYton</title>
+	<title>CYBERDAYton</title>
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,600' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css/normalize.css" type="text/css" media="screen">
 	<link rel="stylesheet" href="css/grid.css" type="text/css" media="screen">
@@ -44,7 +44,7 @@
 		<div class="container clearfix">
 
 			<div id="content" class="grid_9">
-				<h1>Welcome Message</h1>
+				<h1>Welcome</h1>
 				<h2>On 5 JUNE 2014 (Thursday), cyber security professionals will convene in Dayton, Ohio.  These cyber security professionals in attendance support various Government, Defense, Finance, Healthcare, and other commercial sectors.</h2>
 				<p>Links for FB and Twitter</p>
 <!-- 				<p><a href="https://twitter.com/Jalxob" target="_blank"><img src="images/twitter.png"></a> <a href="http://dribbble.com/jalxob" target="_blank"><img src="images/dribbble.png"></a></p> -->
@@ -63,7 +63,7 @@
 
 			<div id="content" class="grid_12">
 				<h1>Event</h1>
-				<h2>CYBER DAYton is an event open to the public where guest speakers will speak (to companies, government customers and individuals) in an effort to educate the audience on best practices for protecting; proprietary/sensitive information; protecting IT infrastructure and protecting system resources. <br /><br />  There will be numerous vendors and booths where companies can display and speak to their product allowing the audience to experience the latest advance products in cyber security. <br /><br />  The focus of the CYBER DAYton is on the practitioner, those that engage in the IT Security occupation and are responsible for implementing policies and concepts and thus therefore making it a reality. <br /><br />
+				<h2>CYBERDAYton is an event open to the public where guest speakers will speak (to companies, government customers and individuals) in an effort to educate the audience on best practices for protecting; proprietary/sensitive information; protecting IT infrastructure and protecting system resources. <br /><br />  There will be numerous vendors and booths where companies can display and speak to their product allowing the audience to experience the latest advance products in cyber security. <br /><br />  The focus of the CYBER DAYton is on the practitioner, those that engage in the IT Security occupation and are responsible for implementing policies and concepts and thus therefore making it a reality. <br /><br />
 				--This is a homegrown event brought together by local cyber security professionals who have volunteered their time.</h2>
 			</div>
 
@@ -218,6 +218,15 @@
 					<h2><a href="http://www.udayton.edu/">University of Dayton</a></h2>
 					<h2><a href="">Industrial Security Awareness Council (ISAC)</a></h2>
 					<h2><a href="https://www.classmgmt.com/home/index.asp">NCMS - Wright Flyer Chapter</a></h2>
+			</div>
+		</div>
+	</div>
+
+	<div class="slide" id="slide8" data-slide="8" data-stellar-background-ratio="0.2">
+		<div class="container clearfix">
+			<div id="content" class="grid_12">
+				<h3>Site by <a href="http://jollygoat.com/">Jolly Goat</a>.</h3>
+				<h4>Made in Michigan.</h4>
 			</div>
 		</div>
 	</div>
