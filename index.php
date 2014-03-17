@@ -6,7 +6,7 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale = 1.0, user-scalable = no">
-	<title>Cool Kitten: A parallax scrolling responsive framework</title>
+	<title>CyberDAYton</title>
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,600' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css/normalize.css" type="text/css" media="screen">
 	<link rel="stylesheet" href="css/grid.css" type="text/css" media="screen">
@@ -76,13 +76,16 @@
 		<div class="container clearfix">
 
 			<div id="content" class="grid_12">
-				<h1>SKILLS</h1>
-				<h2>These are the skills I have learned woooo</h2>
+				<h1>Location</h1>
+				<h2>The event will be held at <a href="http://www.hopehotel.com/">Hope Hotel </a> <br /> 
+				Hope Hotel &amp; Richard C. Holbrooke Conference Center <br /> 
+				Building #823, Area A, Gate 12A 
+				Wright-Patterson AFB, OH 45433 </h2>
 			</div>
 
-			<div id="test" class="grid_4">C++</div> <div id="test" class="grid_4">Java</div> <div id="test" class="grid_4 omega">Python</div>
+<!-- 			<div id="test" class="grid_4">C++</div> <div id="test" class="grid_4">Java</div> <div id="test" class="grid_4 omega">Python</div>
 			<div id="test" class="grid_4">HTML5</div> <div id="test" class="grid_4">CSS3</div> <div id="test" class="grid_4 omega">JavaScript</div>
-			<div id="test" class="grid_4">JQuery</div> <div id="test" class="grid_4">Project Management</div> <div id="test" class="grid_4 omega">Hosting Websites</div>			
+			<div id="test" class="grid_4">JQuery</div> <div id="test" class="grid_4">Project Management</div> <div id="test" class="grid_4 omega">Hosting Websites</div> -->			
 
 
 <!-- 			<div id="test" class="grid_1">1</div> <div id="test" class="grid_11 omega">11</div>
