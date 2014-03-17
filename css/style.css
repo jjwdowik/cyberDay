@@ -135,15 +135,15 @@ a:visited {
 }
 #slide3 h1 {
 	font-size: 3.8em;
-	letter-spacing: -3px;
-	line-height: 0px;
+	letter-spacing: .1em
+	line-height: 1em;
 	color:#8a8683;
 	font-weight: 700;
 }
 #slide3 h2 {
 	font-size: 2em;
 	color: #8a8683;
-	line-height: 0px;
+	line-height: 1.5em;
 	padding-bottom:20px;
 	font-weight: 400;
 }
@@ -239,13 +239,13 @@ a:visited {
 	line-height: 1em;
 }
 #slide2 h2 {
-	line-height: 1em;
+	line-height: 1.5em;
 }
 #slide3 h1 {
 	line-height: 1em;
 }
 #slide3 h2 {
-	line-height: 1em;
+	line-height: 1.5em;
 }
 #slide4 h1 {
 	line-height: 1em;
@@ -303,13 +303,13 @@ a:visited {
 	line-height: 1em;
 }
 #slide2 h2 {
-	line-height: 1em;
+	line-height: 1.5em;
 }
 #slide3 h1 {
 	line-height: 1em;
 }
 #slide3 h2 {
-	line-height: 1em;
+	line-height: 1.5em;
 }
 #slide4 h1 {
 	line-height: 1em;
