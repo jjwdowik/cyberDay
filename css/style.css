@@ -187,7 +187,27 @@ h2{padding-top:1em;}
 }
 
 
+/* Slide 6 */
 
+#slide6{
+	background-color:#8a8683;
+	color:#ffffff;
+}
+
+#slide6 h1 {
+	font-size: 3.8em;
+	letter-spacing: -3px;
+	line-height: 0px;
+	color:#ffffff;
+	font-weight: 700;
+}
+#slide6 h2 {
+	font-size: 2em;
+	color: #ffffff;
+	line-height: 0px;
+	padding-bottom:20px;
+	font-weight: 400;
+}
 
 
 /* Tablet */

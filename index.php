@@ -153,8 +153,24 @@
 				<h2>100 student seats available</h2>
 				<h2>$20.00 per person</h2>
 				<h2>Register now!</h2>
-				<p>form will go here</p>
-				<p>include PayPal link here</p>
+				<form name="htmlform" method="post" action="submitted.php">
+					<div id="formpartContainer">
+						<div class="formpart">
+							<input  type="text" name="firstname" placeholder="First name" maxlength="55" size="25">
+						</div>
+						<div class="formpart">
+							<input  type="text" name="lastname" placeholder="Last name" maxlength="55" size="25">
+						</div>
+						<div class="formpart">
+							<input  type="text" name="email" placeholder="Email" maxlength="55" size="25">
+						</div>
+						<div class="formpart">
+							<input  type="text" name="phone" placeholder="Phone" maxlength="55" size="25">
+						</div>
+					</div>
+					<input class="buttSubmit" type="submit" value="SUBMIT">
+				</form>
+				<p>PayPal link will go here.</p>
 			</div>
 		</div>
 	</div>
@@ -163,7 +179,30 @@
 		<div class="container clearfix">
 			<div id="content" class="grid_12">
 				<h1>Sponsors</h1>
-				
+				<p>If you are interested in sponsoring CyberDAYton, please contact sponsor@cybertdayon.com</p>
+				<p>In the media? Press passes are available. Please email info@cyberdayton.com for more</p>
+				<h2>BRONZE. $250</h2>
+				<p>Your logo and name will be presented on the site as well as in the handouts to attendees.</p>
+				<h2>SILVER. $500</h2>
+				<p>Your logo and name will be presented on the site as well as in the handouts to attendees.
+					You will also have a booth inside the conference to market to all guests.</p>
+				<h2>GOLD. $1000</h2>
+				<p>Your logo and name will be presented on the site as well as in the handouts to attendees.
+					Gold sponsors will also have a booth inside the main conference area where there is a lot of traffic and guests walk through to get to the presentations.</p>
+				<h2>DIAMOND. $2000</h2>
+				<p>Your logo and name will be presented on the site as well as in the handouts to attendees.
+					Your company will be mentioned in the opening ceremony to all of the attendees. Your logo and name will be presented on the highest tier on the site and handout.
+					Your company can send fliers to be included in the bags.
+					Your booth will be setup at a premier location where you will get the most traffic.
+					Lastly, you will be able to include a print ad in our handout.</p>
+				<h2>BADGE. $2000</h2>
+				<p>Each attendee will receive a badge upon entering the symposium.
+					Your logo will appear on the badge. Your design will appear on the back of the badge.</p>
+				<h2>COIN. $2000</h2>
+				<p>Each attendee will receive a coin upon entering the symposium.
+					Your logo will appear on the coin. Your design will appear on the back of the coin.</p>
+				<h2>LANYARD. $1000</h2>
+				<p>Each attendee will receive a lanyard attached to a badge upon entering the symposium. You may provide your lanyard.</p>
 			</div>
 		</div>
 	</div>
