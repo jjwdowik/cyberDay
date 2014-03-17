@@ -87,15 +87,15 @@ a:visited {
 }
 #slide1 h1 {
 	font-size: 3.8em;
-	letter-spacing: -3px;
-	line-height: 0px;
+	letter-spacing: .1em;
+	line-height: 50px;
 	color:#8a8683;
 	font-weight: 700;
 }
 #slide1 h2 {
 	font-size: 2em;
 	color: #8a8683;
-	line-height: 0px;
+	line-height: 40px;
 	padding-bottom:20px;
 	font-weight: 400;
 }
