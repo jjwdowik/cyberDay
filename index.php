@@ -6,6 +6,9 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale = 1.0, user-scalable = no">
+	<meta name="description" content="CYBERDAYton is the annual convention of cyber security professionals."/>
+	<meta name="author" content="Justin Andersun"/>
+	<meta name="author" content="Jeremy Wdowik"/>
 	<title>CYBERDAYton</title>
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,600' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css/normalize.css" type="text/css" media="screen">
@@ -47,11 +50,7 @@
 				<h1>Welcome</h1>
 				<h2>On 5 JUNE 2014 (Thursday), cyber security professionals will convene in Dayton, Ohio.  These cyber security professionals in attendance support various Government, Defense, Finance, Healthcare, and other commercial sectors.</h2>
 				<p>Links for FB and Twitter</p>
-<!-- 				<p><a href="https://twitter.com/Jalxob" target="_blank"><img src="images/twitter.png"></a> <a href="http://dribbble.com/jalxob" target="_blank"><img src="images/dribbble.png"></a></p> -->
 			</div>
-<!-- 			<div id="decorative" class="grid_5 omega">
-				<img src="images/decorative.png">
-			</div> -->
 
 		</div>
 	</div>
@@ -83,24 +82,6 @@
 				Wright-Patterson AFB, OH 45433 </h2>
 			</div>
 
-<!-- 			<div id="test" class="grid_4">C++</div> <div id="test" class="grid_4">Java</div> <div id="test" class="grid_4 omega">Python</div>
-			<div id="test" class="grid_4">HTML5</div> <div id="test" class="grid_4">CSS3</div> <div id="test" class="grid_4 omega">JavaScript</div>
-			<div id="test" class="grid_4">JQuery</div> <div id="test" class="grid_4">Project Management</div> <div id="test" class="grid_4 omega">Hosting Websites</div> -->			
-
-
-<!-- 			<div id="test" class="grid_1">1</div> <div id="test" class="grid_11 omega">11</div>
-			<div id="test" class="grid_2">2</div> <div id="test" class="grid_10 omega">10</div>
-			<div id="test" class="grid_3">3</div> <div id="test" class="grid_9 omega">9</div>
-			<div id="test" class="grid_4">4</div> <div id="test" class="grid_8 omega">8</div>
-			<div id="test" class="grid_5">5</div> <div id="test" class="grid_7 omega">7</div>
-			<div id="test" class="grid_6">6</div> <div id="test" class="grid_6 omega">6</div>
-			<div id="test" class="grid_7">7</div> <div id="test" class="grid_5 omega">5</div>
-			<div id="test" class="grid_8">8</div> <div id="test" class="grid_4 omega">4</div>
-			<div id="test" class="grid_9">9</div> <div id="test" class="grid_3 omega">3</div>
-			<div id="test" class="grid_10">10</div> <div id="test" class="grid_2 omega">2</div>
-			<div id="test" class="grid_11">11</div> <div id="test" class="grid_1 omega">1</div>
-			<div id="test" class="grid_12">12</div> -->
-
 		</div>
 	</div>
 
@@ -108,7 +89,6 @@
 
 	<div class="slide" id="slide4" data-slide="4" data-stellar-background-ratio="0.2">
 		<div class="container clearfix">
-
 			<div id="content" class="grid_12">
 				<h1>Schedule</h1>
 				<h2>Vendor Move In</h2>
@@ -139,10 +119,7 @@
 				<p class="schedtime">3:45 - 4:30 PM. Room TBA</p>
 				<h2>Keynote Closer: Topic</h2>
 				<p class="schedtime">4:30 - 5:15 PM. Room TBA</p>
-
-				<!-- <p><a href="https://twitter.com/Jalxob" target="_blank"><img src="images/twitter.png"></a> <a href="http://dribbble.com/jalxob" target="_blank"><img src="images/dribbble.png"></a></p> -->
 			</div>
-
 		</div>
 	</div>
 
@@ -150,27 +127,17 @@
 		<div class="container clearfix">
 			<div id="content" class="grid_12">
 				<h1>Registration</h1>
-				<h2>100 student seats available</h2>
-				<h2>$20.00 per person</h2>
-				<h2>Register now!</h2>
+				<h3>100 student seats available.</h3>
+				<h3>$20.00 per person.</h3>
+				<h2>Register Here!</h2>
 				<form name="htmlform" method="post" action="submitted.php">
-					<div id="formpartContainer">
-						<div class="formpart">
-							<input  type="text" name="firstname" placeholder="First name" maxlength="55" size="25">
-						</div>
-						<div class="formpart">
-							<input  type="text" name="lastname" placeholder="Last name" maxlength="55" size="25">
-						</div>
-						<div class="formpart">
-							<input  type="text" name="email" placeholder="Email" maxlength="55" size="25">
-						</div>
-						<div class="formpart">
-							<input  type="text" name="phone" placeholder="Phone" maxlength="55" size="25">
-						</div>
-					</div>
-					<input class="buttSubmit" type="submit" value="SUBMIT">
+					<input class="registertext" type="text" name="firstname" placeholder="First name" maxlength="25" size="25">
+					<input class="registertext" type="text" name="lastname" placeholder="Last name" maxlength="25" size="25">
+					<input class="registertext" type="text" name="email" placeholder="Email" maxlength="50" size="25">
+					<input class="registertext" type="text" name="phone" placeholder="Phone" maxlength="9" size="25">
+					<p id="paypal">PayPal link will go here.</p>
+					<input id="submitbutton" type="submit" value="REGISTER">
 				</form>
-				<p>PayPal link will go here.</p>
 			</div>
 		</div>
 	</div>
@@ -211,7 +178,7 @@
 		<div class="container clearfix">
 			<div id="content" class="grid_12">
 				<h1>Partners</h1>
-					<p>Special thanks to the partner organizations that have supported this event!</p>
+					<h4>A special thank you to the partner organizations that have supported this event.</h4>
 					<h2><a href="http://infragard.dayton.oh.us/">Infragard - Dayton</a></h2>
 					<h2><a href="http://www.ohioinfosec.org">Ohio Information Security Forum (OISF)</a></h2>
 					<h2><a href="http://cse.wright.edu/">Wright State University</a></h2>
@@ -222,14 +189,10 @@
 		</div>
 	</div>
 
-	<div class="slide" id="slide8" data-slide="8" data-stellar-background-ratio="0.2">
-		<div class="container clearfix">
-			<div id="content" class="grid_12">
-				<h3>Site by <a href="http://jollygoat.com/">Jolly Goat</a>.</h3>
-				<h4>Made in Michigan.</h4>
-			</div>
-		</div>
-	</div>
+	<footer>
+		<h3>Site by <a href="http://jollygoat.com/">Jolly Goat</a>.</h3>
+		<h4>Made in Michigan.</h4>
+	</footer>
 
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 	<script type="text/javascript" src="js/jquery.stellar.min.js"></script>
