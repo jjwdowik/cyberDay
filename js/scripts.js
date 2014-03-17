@@ -31,7 +31,7 @@ jQuery(document).ready(function ($) {
         }
         if(mywindow.scrollTop() + mywindow.height() == $(document).height()) {
             // dataslide = $(this).attr('data-slide');
-            $('.navigation li[data-slide="' + 4 + '"]').addClass('active').prev().removeClass('active');
+            $('.navigation li[data-slide="' + 7 + '"]').addClass('active').prev().removeClass('active');
         }
 
     });
