@@ -23,11 +23,11 @@
 	<div class="menu">
 		<div class="clearfix">
 
-			<div id="logo" class="grid_3">
+			<div id="logo" class="grid_4">
 				<img src="images/theLogo.gif">
 			</div>
 
-			<div id="nav" class="grid_9 omega">
+			<div id="nav" class="grid_8 omega">
 				<ul class="navigation">
 					<li data-slide="1" class="nav-link active">Home</li>
 					<li data-slide="2" class="nav-link">Event</li>
