@@ -18,7 +18,7 @@
 <body>
 
 	<div class="menu">
-		<div class="container clearfix">
+		<div class="clearfix">
 
 			<div id="logo" class="grid_3">
 				<img src="images/theLogo.gif">
@@ -26,15 +26,16 @@
 
 			<div id="nav" class="grid_9 omega">
 				<ul class="navigation">
-					<li data-slide="1">Home</li>
-					<li data-slide="2">Event</li>
-					<li data-slide="3">Location</li>
-					<li data-slide="4">Schedule</li>
-					<li data-slide="5">Registration</li>
-					<li data-slide="6">Sponsors</li>
-					<li data-slide="7">Partners</li>					
+					<li data-slide="1" class="nav-link active">Home</li>
+					<li data-slide="2" class="nav-link">Event</li>
+					<li data-slide="3" class="nav-link">Location</li>
+					<li data-slide="4" class="nav-link">Schedule</li>
+					<li data-slide="5" class="nav-link">Registration</li>
+					<li data-slide="6" class="nav-link">Sponsors</li>
+					<li data-slide="7" class="nav-link">Partners</li>					
 				</ul>
 			</div>
+			<a href="#" id="pull"><div id="theLogo"><img src="images/theLogo.gif"></div></a>
 
 		</div>
 	</div>
