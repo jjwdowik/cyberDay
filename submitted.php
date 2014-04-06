@@ -7,6 +7,7 @@
             $email_to = "justinandersun@gmail.com";
             $email_subject = "CYBERDAYton Registration Form";
             
+            
             function died($error) {
                 echo $error;
                 echo "<a class=\"returnlink\" href=\"javascript:history.
@@ -28,7 +29,7 @@
             $email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/';
             $string_exp = "/^[A-Za-z .'-]+$/";
 
-            if(strlen($phone) < 9 && strlen($phone) > 9) {
+            if(strlen($phone) < 9 || strlen($phone) > 9) {
                   $error_message .= "<p class=\"erred\">Please enter a valid phone number.</p>";
             } else {
                 if(!preg_match($string_exp,$firstname) || !preg_match($string_exp,$lastname)) {
