@@ -131,14 +131,19 @@
 				<h3>100 student seats available.</h3>
 				<h3>$20.00 per person.</h3>
 				<h2>Register Here!</h2>
-				<form name="htmlform" method="post" action="submitted.php">
-					<input class="registertext" type="text" name="firstname" placeholder="First name" maxlength="25" size="25">
-					<input class="registertext" type="text" name="lastname" placeholder="Last name" maxlength="25" size="25">
-					<input class="registertext" type="text" name="email" placeholder="Email" maxlength="50" size="25">
-					<input class="registertext" type="text" name="phone" placeholder="Phone" maxlength="9" size="25">
-					<p id="paypal">PayPal link will go here.</p>
-					<input id="submitbutton" type="submit" value="REGISTER">
-				</form>
+				<div id="thankYou">
+					<h1>Thank you for the info!!</h1>
+				</div>
+				<div id="contactForm">
+					<form name="htmlform">
+						<input class="registertext" id="name" type="text" name="firstname" placeholder="First name" maxlength="25" size="25">
+						<input class="registertext" id="lastname" type="text" name="lastname" placeholder="Last name" maxlength="25" size="25">
+						<input class="registertext" id="email" type="text" name="email" placeholder="Email" maxlength="50" size="25">
+						<input class="registertext" id="phone" type="text" name="phone" placeholder="Phone" maxlength="9" size="25">
+						<p id="paypal">PayPal link will go here.</p>
+						<input id="submitbutton" type="submit" value="REGISTER">
+					</form>
+				</div>
 			</div>
 		</div>
 	</div>

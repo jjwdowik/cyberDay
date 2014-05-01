@@ -117,10 +117,13 @@ h2{padding-top:1em;}
 /* Slide 2 */ 
 
 #slide2{
-	background-image:url('../images/code.jpg');
+	background-image:url('../images/dayton2.jpg');
 	background-color:#f68f67;
 	color:#ffffff;
 }
+
+
+
 #slide2 h1 {
 	font-size: 3.8em;
 	letter-spacing: .1em;
@@ -134,6 +137,12 @@ h2{padding-top:1em;}
 	line-height: 1.5em;
 	padding-bottom:20px;
 	font-weight: 400;
+	background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, .5);
+    border-radius:2em;
+    padding-left: 10px;
+    padding-right: 10px;
+
 }
 
 
@@ -175,6 +184,7 @@ h2{padding-top:1em;}
 	background-color:#FF3D00;
 	color:#ffffff;
 }
+
 
 #slide4 h1 {
 	font-size: 3.8em;
@@ -276,6 +286,26 @@ h2{padding-top:1em;}
 /* Slide 7 */
 	
 
+
+
+#thankYou {
+	display: none;
+	text-align: center;
+
+}
+
+#thankYou h1 {
+	color: #4DB6C4;
+}
+
+
+#errorForm {
+	display: none;
+	color: red;
+	text-align: center;
+}
+	
+
 #slide7{
 	background-color:#ffffff;
 	color:rgba(0,0,0,0.6);
@@ -292,6 +322,11 @@ h2{padding-top:1em;}
 	line-height: 0px;
 	padding-bottom:20px;
 	font-weight: 400;
+}
+
+
+#thankYou {
+	color: blue;
 }
 
 /* Footer */

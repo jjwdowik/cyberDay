@@ -93,6 +93,39 @@ jQuery(document).ready(function ($) {
     });
 
 
+
+    //submit form ajax stuff
+    $("#contactForm").submit(function() {
+
+        if(checkEmail()) {
+            var url = "submitted.php"; // the script where you handle the form input.
+            var data = {};
+
+            data['firstname'] = $('#name').val();
+            data['lastname'] = $('#lastname').val();
+            data['email'] = $('#email').val(); 
+            data['phone'] = $('#phone').val(); 
+
+            $.ajax({
+                   type: "POST",
+                   url: url,
+                   data: data, // serializes the form's elements.
+                   success: function(data)
+                   {
+                       $('#contactForm').fadeOut("slow", function () {
+                            $('#thankYou').fadeIn( 2000); 
+                       });
+                       
+                   }
+                 });
+
+        }
+        return false;
+    });
+
+
+
+
 });
 
 

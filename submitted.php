@@ -4,7 +4,7 @@
     <section class="PAGE">
         <?php
         if(isset($_POST['email'])){
-            $email_to = "justinandersun@gmail.com";
+            $email_to = "jeremywdowik@gmail.com";
             $email_subject = "CYBERDAYton Registration Form";
             
             
@@ -61,7 +61,7 @@
             'Reply-To: '.$email."\r\n" .
             'X-Mailer: PHP/'.phpversion();
             @mail($email_to, $email_subject, $email_message, $headers);  
-        ?><p class="erred">Submitted.</p>
+        ?>
         <?php
         } die();
         ?>
