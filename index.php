@@ -9,7 +9,7 @@
 	<meta name="description" content="CYBERDAYton is the annual convention of cyber security professionals."/>
 	<meta name="author" content="Justin Andersun"/>
 	<meta name="author" content="Jeremy Wdowik"/>
-	<title>CYBERDAYton</title>
+	<title>CyberDayton</title>
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,600' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css/normalize.css" type="text/css" media="screen">
 	<link rel="stylesheet" href="css/grid.css" type="text/css" media="screen">
@@ -24,7 +24,7 @@
 		<div class="clearfix">
 
 			<div id="logo" class="grid_4">
-				<img src="images/theLogo.gif">
+				<p id="titletext">CYBERDAYTON</p>
 			</div>
 
 			<div id="nav" class="grid_8 omega">
@@ -38,7 +38,7 @@
 					<li data-slide="7" class="nav-link">Partners</li>					
 				</ul>
 			</div>
-			<a href="#" id="pull"><div id="theLogo"><img src="images/theLogo.gif"></div></a>
+			<a href="#" id="pull"><span class="cyberlogo">CYBERDAYTON</span></a>
 
 		</div>
 	</div>
@@ -152,8 +152,13 @@
 		<div class="container clearfix">
 			<div id="content" class="grid_12">
 				<h1>Sponsors</h1>
-				<p>If you are interested in sponsoring CyberDAYton, please contact sponsor@cybertdayon.com</p>
-				<p>In the media? Press passes are available. Please email info@cyberdayton.com for more</p>
+				<p>If you are interested in sponsoring or gaining media coverage for CyberDayton, let us know!</p>
+				<form name="sponsor_form">
+					<input class="registertext" id="name" type="text" name="sponsor_name" placeholder="Sponsor Name" maxlength="25" size="25">
+					<input class="registertext" id="email" type="text" name="sponsor_email" placeholder="Email" maxlength="50" size="25">
+					<input class="registertext" id="phone" type="text" name="sponsor_phone" placeholder="Phone" maxlength="9" size="25">
+					<textarea name="sponsor_message" placeholder="Message"></textarea>
+				</form>
 				<h2>BRONZE. $250</h2>
 				<p>Your logo and name will be presented on the site as well as in the handouts to attendees.</p>
 				<h2>SILVER. $500</h2>

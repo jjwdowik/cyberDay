@@ -22,13 +22,13 @@ a:visited {
 	color: #f68f67;
 	text-decoration: none;
 }
-h2{padding-top:1em;}
-@font-face{
-	font-family:Neuro;
-	src:url(NEUROPOL.ttf);
+h2 {
+	padding-top:1em;
 }
-
-
+@font-face{
+	font-family: Neuro;
+	src: url(NEUROPOL.TTF);
+}
 
 
 
@@ -43,9 +43,12 @@ h2{padding-top:1em;}
 	z-index:100;
 	border-bottom: 5px gray solid;
 }
-#logo {
+#titletext {
+	font-family: Neuro, sans-serif;
+	font-size: 2.5em;
+	line-height: 0;
+	letter-spacing: 0.05em;
 	text-align: center;
-	margin: 10px 0;
 }
 #nav {
 	display: block;
@@ -445,7 +448,7 @@ a#pull {
     z-index:10;
     height:2.5em;
     width:100%;
-    background-color: blue;
+    background-color: gray;
     text-align:center;
     letter-spacing:0.1em;
     box-shadow:0 0 1.5em rgba(0,0,0,0.6);  
@@ -462,16 +465,12 @@ a#pull:after {
 }
 a#pull:hover {
 }
-div#theLogo {
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    height: 2.5em;
-    width: 60%;
-}
-
-div#theLogo img {
-	max-width: 300px;
+.cyberlogo {
+	font-family: Neuro, sans-serif;
+	line-height: 0;
+	font-size: 1.5em;
+	letter-spacing: 0.03;
+	margin-top: 1em;
 }
 #logo {
 	display: none;
@@ -480,16 +479,6 @@ div#theLogo img {
 
 
 }
-
-
-/* Nav css changes*/
-
-/*@media only screen and (max-width:550px){
-
-}*/
-
-
-
 
 
 
