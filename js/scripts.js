@@ -93,19 +93,42 @@ jQuery(document).ready(function ($) {
     });
 
 
+    //check email function
+    function errorCheck(data) {
+        var error = false;
+        if(data['phone'].length != 9) {
+            $('#errorForm').text("Enter a valid phone number");
+            error = true;
+        }
+        //add other checks if needed?
+
+        if(error) {
+            $('#errorForm').fadeIn( 2000, function () {
+                $('#errorForm').delay( 4000 ).fadeOut("slow");
+            }); 
+            return false;
+        }
+        else {
+            return true;
+        }
+    };
+
+
+
+
 
     //submit form ajax stuff
     $("#contactForm").submit(function() {
+        var data = {};
 
-        if(checkEmail()) {
+        data['firstname'] = $('#name').val();
+        data['lastname'] = $('#lastname').val();
+        data['email'] = $('#email').val(); 
+        data['phone'] = $('#phone').val();
+
+        if(errorCheck(data)) {
+
             var url = "submitted.php"; // the script where you handle the form input.
-            var data = {};
-
-            data['firstname'] = $('#name').val();
-            data['lastname'] = $('#lastname').val();
-            data['email'] = $('#email').val(); 
-            data['phone'] = $('#phone').val(); 
-
             $.ajax({
                    type: "POST",
                    url: url,
@@ -118,10 +141,10 @@ jQuery(document).ready(function ($) {
                        
                    }
                  });
-
         }
         return false;
     });
+
 
 
 
