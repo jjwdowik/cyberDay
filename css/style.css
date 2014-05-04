@@ -41,7 +41,7 @@ h2 {
 	height:auto; 
 	background-color:#ffffff;
 	z-index:100;
-	border-bottom: 5px gray solid;
+	/*border-bottom: 5px gray solid;*/
 }
 #titletext {
 	font-family: Neuro, sans-serif;
