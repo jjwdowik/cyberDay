@@ -49,8 +49,8 @@
 
 			<div id="content" class="grid_9">
 				<h1>Welcome</h1>
-				<h2>On 5 JUNE 2014 (Thursday), cyber security professionals will convene in Dayton, Ohio.  These cyber security professionals in attendance support various Government, Defense, Finance, Healthcare, and other commercial sectors.</h2>
-				<p>Links for FB and Twitter</p>
+				<h2>On <b>5 June 2014</b>, cyber security professionals from government, defense, finance, and healthcare will convene in Dayton, Ohio.</h2>
+				<p>Facebook and Twitter links will go here.</p>
 			</div>
 
 		</div>
@@ -63,8 +63,8 @@
 
 			<div id="content" class="grid_12">
 				<h1>Event</h1>
-				<h2>CYBERDAYton is an event open to the public where guest speakers will speak (to companies, government customers and individuals) in an effort to educate the audience on best practices for protecting; proprietary/sensitive information; protecting IT infrastructure and protecting system resources. <br /><br />  There will be numerous vendors and booths where companies can display and speak to their product allowing the audience to experience the latest advance products in cyber security. <br /><br />  The focus of the CYBER DAYton is on the practitioner, those that engage in the IT Security occupation and are responsible for implementing policies and concepts and thus therefore making it a reality. <br /><br />
-				--This is a homegrown event brought together by local cyber security professionals who have volunteered their time.</h2>
+				<h2>For practitioners of cyber security, <b>CyberDayton</b> is a public event hosted by local security professionals to showcase the best practices for protecting sensitive information, IT infrastructure, and system resources.<br><br>
+					Numerous vendors and companies will be displaying the latest innovations in cyber security.</h2>
 			</div>
 
 		</div>
@@ -77,10 +77,9 @@
 
 			<div id="content" class="grid_12">
 				<h1>Location</h1>
-				<h2>The event will be held at <a href="http://www.hopehotel.com/">Hope Hotel </a> <br /> 
-				Hope Hotel &amp; Richard C. Holbrooke Conference Center <br /> 
-				Building #823, Area A, Gate 12A 
-				Wright-Patterson AFB, OH 45433 </h2>
+				<h2><a href="http://www.hopehotel.com/">Hope Hotel &amp; Richard C. Holbrooke Conference Center</a><br>
+				Building #823, Area A, Gate 12A<br>
+				Wright-Patterson Air Force Base, Ohio 45433</h2>
 			</div>
 
 		</div>
@@ -92,34 +91,21 @@
 		<div class="container clearfix">
 			<div id="content" class="grid_12">
 				<h1>Schedule</h1>
-				<h2>Vendor Move In</h2>
-				<p class="schedtime">7:00 - 8:00 AM</p>
-				<h2>Registration</h2>
-				<p class="schedtime">8:00 - 8:30 AM</p>
-				<h2>Keynote Speaker 1: Topic</h2>
-				<p class="schedtime">8:45 - 9:30 AM. Room TBA</p>
-				<h2>Tracks. Topics TBA</h2>
-				<p class="schedtime">9:45 - 10:30 AM. Room TBA</p>
-				<h2>Break</h2>
-				<p class="schedtime">10:30 - 10:45 AM. Room TBA</p>
-				<h2>Sponsor Lunch</h2>
-				<p class="schedtime">11:30 - 12:45 PM. Room TBA</p>
-				<h2>Tracks. Topics TBA</h2>
-				<p class="schedtime">12:45 - 1:30 PM. Room TBA</p>
-				<h2>Break</h2>
-				<p class="schedtime">1:30 - 1:45 PM. Room TBA</p>
-				<h2>Tracks. Topics TBA</h2>
-				<p class="schedtime">1:45 - 2:30 PM. Room TBA</p>
-				<h2>Break</h2>
-				<p class="schedtime">2:30 - 2:45 PM. Room TBA</p>
-				<h2>Tracks. Topics TBA</h2>
-				<p class="schedtime">2:45 - 3:30 PM. Room TBA</p>
-				<h2>Break</h2>
-				<p class="schedtime">3:30 - 3:45 PM. Room TBA</p>
-				<h2>Tracks. Topics TBA</h2>
-				<p class="schedtime">3:45 - 4:30 PM. Room TBA</p>
-				<h2>Keynote Closer: Topic</h2>
-				<p class="schedtime">4:30 - 5:15 PM. Room TBA</p>
+				<h2>7:00 - 8:00 am. Vendor Move In<br>
+				8:00 - 8:30 am. Registration<br>
+				8:45 - 9:30 am. Keynote Speaker 1: Topic<br>
+				9:45 - 10:30 am. Tracks. Topics TBA<br>
+				10:30 - 10:45 am. Break<br>
+				11:30 - 12:45 pm. Sponsor Lunch<br>
+				12:45 - 1:30 pm. Tracks. Topics TBA<br>
+				1:30 - 1:45 pm. Break<br>
+				1:45 - 2:30 pm. Tracks. Topics TBA<br>
+				2:30 - 2:45 pm. Break<br>
+				2:45 - 3:30 pm. Tracks. Topics TBA<br>
+				3:30 - 3:45 pm. Break<br>
+				3:45 - 4:30 pm. Tracks. Topics TBA<br>
+				4:30 - 5:15 pm. Keynote Closer: Topic
+				</h2>
 			</div>
 		</div>
 	</div>
@@ -128,18 +114,16 @@
 		<div class="container clearfix">
 			<div id="content" class="grid_12">
 				<h1>Registration</h1>
-				<h3>100 student seats available.</h3>
-				<h3>$20.00 per person.</h3>
-				<h2>Register Here!</h2>
+				<h3>100 student seats available. $20.00 per person.</h3>
 				<div id="thankYou">
-					<h2>Thank you for the info!!</h2>
+					<h1>You have successfully registered for CyberDayton 2014.</h1>
 				</div>
 				<div id="contactForm">
 					<form name="htmlform">
-						<input class="registertext" id="name" type="text" name="firstname" placeholder="First name" maxlength="25" size="25" required>
-						<input class="registertext" id="lastname" type="text" name="lastname" placeholder="Last name" maxlength="25" size="25" required>
-						<input class="registertext" id="email" type="email" name="email" placeholder="Email" maxlength="50" size="25" required>
-						<input class="registertext" id="phone" type="tel" name="phone" placeholder="Phone" maxlength="9" size="25" required>
+						<input class="inputext" id="name" type="text" name="firstname" placeholder="First name" maxlength="25" size="25" required>
+						<input class="inputext" id="lastname" type="text" name="lastname" placeholder="Last name" maxlength="25" size="25" required>
+						<input class="inputext" id="email" type="email" name="email" placeholder="Email" maxlength="50" size="25" required>
+						<input class="inputext" id="phone" type="tel" name="phone" placeholder="Phone" maxlength="9" size="25" required>
 						<p id="paypal">PayPal link will go here.</p>
 						<p id="errorForm"></p>
 						<input id="submitbutton" type="submit" value="REGISTER">
@@ -153,13 +137,7 @@
 		<div class="container clearfix">
 			<div id="content" class="grid_12">
 				<h1>Sponsors</h1>
-				<p>If you are interested in sponsoring or gaining media coverage for CyberDayton, let us know!</p>
-				<form name="sponsor_form">
-					<input class="registertext" id="name" type="text" name="sponsor_name" placeholder="Sponsor Name" maxlength="25" size="25" required>
-					<input class="registertext" id="email" type="email" name="sponsor_email" placeholder="Email" maxlength="50" size="25" required>
-					<input class="registertext" id="phone" type="tel" name="sponsor_phone" placeholder="Phone" maxlength="9" size="25" required>
-					<textarea class="registertext" name="sponsor_message" placeholder="Message"></textarea>
-				</form>
+				<p>If you are interested in sponsoring CyberDayton, review the options below and let us know!</p>
 				<h2>BRONZE. $250</h2>
 				<p>Your logo and name will be presented on the site as well as in the handouts to attendees.</p>
 				<h2>SILVER. $500</h2>
@@ -182,6 +160,14 @@
 					Your logo will appear on the coin. Your design will appear on the back of the coin.</p>
 				<h2>LANYARD. $1000</h2>
 				<p>Each attendee will receive a lanyard attached to a badge upon entering the symposium. You may provide your lanyard.</p>
+				<br>
+				<form name="sponsor_form">
+					<input class="inputext" id="name" type="text" name="sponsor_name" placeholder="Sponsor Name" maxlength="25" size="25" required>
+					<input class="inputext" id="email" type="email" name="sponsor_email" placeholder="Email" maxlength="50" size="25" required>
+					<input class="inputext" id="phone" type="tel" name="sponsor_phone" placeholder="Phone" maxlength="9" size="25" required>
+					<textarea name="sponsor_message" placeholder="Message"></textarea>
+					<input class="submitbutton" type="submit" value="SPONSOR">
+				</form>
 			</div>
 		</div>
 	</div>
@@ -190,7 +176,6 @@
 		<div class="container clearfix">
 			<div id="content" class="grid_12">
 				<h1>Partners</h1>
-					<h4>A special thank you to the partner organizations that have supported this event.</h4>
 					<h2><a href="http://infragard.dayton.oh.us/">Infragard - Dayton</a></h2>
 					<h2><a href="http://www.ohioinfosec.org">Ohio Information Security Forum (OISF)</a></h2>
 					<h2><a href="http://cse.wright.edu/">Wright State University</a></h2>
