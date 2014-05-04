@@ -262,6 +262,22 @@ h2 {
 	color:#ffffff;
 }
 
+#thankYou {
+	display: none;
+
+}
+
+#thankYou h2 {
+	color: #4DB6C4;
+}
+
+
+#errorForm {
+	display: none;
+	color: black;
+	padding-left: 1em;
+}
+
 
 /* Slide 6 */
 
@@ -289,26 +305,6 @@ h2 {
 /* Slide 7 */
 	
 
-
-
-#thankYou {
-	display: none;
-	text-align: center;
-
-}
-
-#thankYou h1 {
-	color: #4DB6C4;
-}
-
-
-#errorForm {
-	display: none;
-	color: red;
-	text-align: center;
-}
-	
-
 #slide7{
 	background-color:#ffffff;
 	color:rgba(0,0,0,0.6);
@@ -325,11 +321,6 @@ h2 {
 	line-height: 0px;
 	padding-bottom:20px;
 	font-weight: 400;
-}
-
-
-#thankYou {
-	color: blue;
 }
 
 /* Footer */
@@ -376,9 +367,9 @@ footer{
 	background-attachment: fixed;
 	width:100%;
 	position: relative;
-	padding:150px 0;
+	padding-top: 15px;
+	padding-bottom: 100px;
 }
-
 #decorative {
 	display:none;
 }
@@ -413,7 +404,10 @@ footer{
 	line-height: 1em;
 }
 
-
+#slide5 h1 {
+	font-size:3em;
+	line-height: 1em;
+}
 
 
 
@@ -470,7 +464,7 @@ a#pull:hover {
 	line-height: 0;
 	font-size: 1.5em;
 	letter-spacing: 0.03;
-	margin-top: 1em;
+	margin-top: .8em;
 }
 #logo {
 	display: none;
@@ -481,6 +475,14 @@ a#pull:hover {
 }
 
 
+/*fix for links*/
+@media screen and (max-width: 800px) {
+
+	#slide7 h2 {
+		font-size:2em;
+		line-height: 1em;
+	}
+}
 
 /* Mobile */
 @media screen and (max-width: 480px) {
@@ -512,12 +514,6 @@ a#pull:hover {
 		width:25%;
 	}*/
 
-.slide{
-	background-attachment: fixed;
-	width:100%;
-	position: relative;
-	padding:150px 0;
-}
 
 
 #slide1 h1 {
@@ -543,6 +539,10 @@ a#pull:hover {
 }
 #slide4 h2 {
 	line-height: 1em;
+}
+
+#slide7 h2 {
+	font-size:1em;
 }
 
 

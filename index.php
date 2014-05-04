@@ -38,7 +38,7 @@
 					<li data-slide="7" class="nav-link">Partners</li>					
 				</ul>
 			</div>
-			<a href="#" id="pull"><span class="cyberlogo">CYBERDAYTON</span></a>
+			<a href="#" id="pull"><p class="cyberlogo">CYBERDAYTON</p></a>
 
 		</div>
 	</div>
@@ -132,15 +132,16 @@
 				<h3>$20.00 per person.</h3>
 				<h2>Register Here!</h2>
 				<div id="thankYou">
-					<h1>Thank you for the info!!</h1>
+					<h2>Thank you for the info!!</h2>
 				</div>
 				<div id="contactForm">
 					<form name="htmlform">
-						<input class="registertext" id="name" type="text" name="firstname" placeholder="First name" maxlength="25" size="25">
-						<input class="registertext" id="lastname" type="text" name="lastname" placeholder="Last name" maxlength="25" size="25">
-						<input class="registertext" id="email" type="text" name="email" placeholder="Email" maxlength="50" size="25">
-						<input class="registertext" id="phone" type="text" name="phone" placeholder="Phone" maxlength="9" size="25">
+						<input class="registertext" id="name" type="text" name="firstname" placeholder="First name" maxlength="25" size="25" required>
+						<input class="registertext" id="lastname" type="text" name="lastname" placeholder="Last name" maxlength="25" size="25" required>
+						<input class="registertext" id="email" type="email" name="email" placeholder="Email" maxlength="50" size="25" required>
+						<input class="registertext" id="phone" type="tel" name="phone" placeholder="Phone" maxlength="9" size="25" required>
 						<p id="paypal">PayPal link will go here.</p>
+						<p id="errorForm"></p>
 						<input id="submitbutton" type="submit" value="REGISTER">
 					</form>
 				</div>
@@ -154,10 +155,10 @@
 				<h1>Sponsors</h1>
 				<p>If you are interested in sponsoring or gaining media coverage for CyberDayton, let us know!</p>
 				<form name="sponsor_form">
-					<input class="registertext" id="name" type="text" name="sponsor_name" placeholder="Sponsor Name" maxlength="25" size="25">
-					<input class="registertext" id="email" type="text" name="sponsor_email" placeholder="Email" maxlength="50" size="25">
-					<input class="registertext" id="phone" type="text" name="sponsor_phone" placeholder="Phone" maxlength="9" size="25">
-					<textarea name="sponsor_message" placeholder="Message"></textarea>
+					<input class="registertext" id="name" type="text" name="sponsor_name" placeholder="Sponsor Name" maxlength="25" size="25" required>
+					<input class="registertext" id="email" type="email" name="sponsor_email" placeholder="Email" maxlength="50" size="25" required>
+					<input class="registertext" id="phone" type="tel" name="sponsor_phone" placeholder="Phone" maxlength="9" size="25" required>
+					<textarea class="registertext" name="sponsor_message" placeholder="Message"></textarea>
 				</form>
 				<h2>BRONZE. $250</h2>
 				<p>Your logo and name will be presented on the site as well as in the handouts to attendees.</p>
@@ -211,5 +212,5 @@
 	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
 	<script type="text/javascript" src="js/scripts.js"></script>
 	<!-- <script type="text/javascript" src="js/scripts.min.js"></script> -->
-</body>
+ </body>
 </html>
