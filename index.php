@@ -14,7 +14,7 @@
 	<link rel="stylesheet" href="css/normalize.css" type="text/css" media="screen">
 	<link rel="stylesheet" href="css/grid.css" type="text/css" media="screen">
 	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
-	<!-- <link rel="stylesheet" href="css/style.min.css" type="text/css" media="screen"> -->
+	<link rel="icon" type="image/png" href="favicon.ico">
 	<!--[if IE]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 </head>
 
