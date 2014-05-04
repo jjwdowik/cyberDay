@@ -59,10 +59,12 @@ h2 {
 	float: right;
 	list-style: none;
 	margin: 0;
+	padding-right: 1em;
+	text-transform: uppercase;
 }
 .navigation li{
 	float: left;
-	padding:0 0 0 50px;
+	padding:0 0 0 1.6em;
 }
 .navigation li:hover{
 	cursor:pointer;
@@ -257,7 +259,7 @@ textarea{
 	margin-bottom:0.5em;
 }
 
-#submitbutton{
+.submitbutton{
 	height:2.7em;
 	font-size:1.5em;
 	padding-left:0.5em;
@@ -267,7 +269,7 @@ textarea{
 	font-weight:500;
 	display:block;
 	text-align:center;
-	margin:0.5em;
+	margin-top:0.5em;
 	border:none;
 	background-color:#000000;
 	color:#ffffff;

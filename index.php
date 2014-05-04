@@ -126,7 +126,7 @@
 						<input class="inputext" id="phone" type="tel" name="phone" placeholder="Phone" maxlength="9" size="25" required>
 						<p id="paypal">PayPal link will go here.</p>
 						<p id="errorForm"></p>
-						<input id="submitbutton" type="submit" value="REGISTER">
+						<input class="submitbutton" type="submit" value="REGISTER">
 					</form>
 				</div>
 			</div>
