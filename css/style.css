@@ -99,7 +99,7 @@ h2 {
 /* Slide 1 */ 
 
 #slide1{
-	background-image:url('../images/dayton2.jpg');
+	background-image:url('../images/daytonnight.jpg');
 	background-color:#ffffff;
 }
 #slide1 h1 {
@@ -158,7 +158,6 @@ h2 {
 }
 #slide3 h1 {
 	font-size: 3.8em;
-	letter-spacing: .1em;
 	line-height: 1em;
 	color:#8a8683;
 	font-weight: 700;
@@ -208,9 +207,9 @@ h2 {
 
 
 #slide5{
-	background-image:url('../images/daytonAir.jpg');
-	background-color:#A62800;
-	color:#ffffff;
+	background-image:url('../images/daytonskyline3.jpg');
+	background-color:rgba(250,250,250,0.3);
+	color:#000000;
 	line-height:0px;
 }
 
@@ -228,12 +227,6 @@ h2 {
 	font-size:1.4em;
 	padding-bottom:1em;
 	font-weight:500;
-}
-#paypal{
-	padding:1em;
-	font-style:italic;
-	font-size:1.1em;
-	font-weight:600;
 }
 
 .inputext{
@@ -360,7 +353,8 @@ footer{
 	text-align:center;
 	background-color:rgba(0,0,0,0.8);
 	color:#ffffff;
-	padding:0.5em;
+	padding-top:0.5em;
+	padding-bottom: 1.5em;
 }
 
 

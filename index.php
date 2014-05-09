@@ -22,15 +22,13 @@
 
 	<div class="menu">
 		<div class="clearfix">
-
 			<div id="logo" class="grid_4">
 				<p id="titletext">CYBERDAYTON</p>
 			</div>
-
 			<div id="nav" class="grid_8 omega">
 				<ul class="navigation">
 					<li data-slide="1" class="nav-link active">Home</li>
-					<li data-slide="2" class="nav-link">Event</li>
+					<!--<li data-slide="2" class="nav-link">Event</li>-->
 					<li data-slide="3" class="nav-link">Location</li>
 					<li data-slide="4" class="nav-link">Schedule</li>
 					<li data-slide="5" class="nav-link">Registration</li>
@@ -39,49 +37,43 @@
 				</ul>
 			</div>
 			<a href="#" id="pull"><p class="cyberlogo">CYBERDAYTON</p></a>
-
 		</div>
 	</div>
 
 
 	<div class="slide" id="slide1" data-slide="1" data-stellar-background-ratio="0.5">
 		<div class="container clearfix">
-
-			<div id="content" class="grid_9">
-				<h1>Welcome</h1>
-				<h2>On <b>5 June 2014</b>, cyber security professionals from government, defense, finance, and healthcare will convene in Dayton, Ohio.</h2>
+			<div id="content" class="grid_12">
+				<h1>On Date TBD...</h1>
+				<h2>Security experts from government, defense, finance, and healthcare will convene in Dayton, Ohio to showcase their latest innovations.
+				For practitioners of cyber security, <b>CyberDayton</b> is hosted by local professionals to display the best practices for protecting sensitive information, IT infrastructure, and system resources.</h2>
 				<p>Facebook and Twitter links will go here.</p>
 			</div>
-
 		</div>
 	</div>
 
-
+<!--
 
 	<div class="slide" id="slide2" data-slide="2" data-stellar-background-ratio="0.5">
 		<div class="container clearfix">
-
 			<div id="content" class="grid_12">
 				<h1>Event</h1>
 				<h2>For practitioners of cyber security, <b>CyberDayton</b> is a public event hosted by local security professionals to showcase the best practices for protecting sensitive information, IT infrastructure, and system resources.<br><br>
-					Numerous vendors and companies will be displaying the latest innovations in cyber security.</h2>
+					Top companies and experts from government, defense, finance, and healthcare will convene in Dayton, Ohio to display the latest innovations in cyber security.</h2>
 			</div>
-
 		</div>
 	</div>
 
-
+-->
 
 	<div class="slide" id="slide3" data-slide="3" data-stellar-background-ratio="0.5">
 		<div class="container clearfix">
-
 			<div id="content" class="grid_12">
 				<h1>Location</h1>
 				<h2><a href="http://www.hopehotel.com/">Hope Hotel &amp; Richard C. Holbrooke Conference Center</a><br>
 				Building #823, Area A, Gate 12A<br>
 				Wright-Patterson Air Force Base, Ohio 45433</h2>
 			</div>
-
 		</div>
 	</div>
 
@@ -124,7 +116,9 @@
 						<input class="inputext" id="lastname" type="text" name="lastname" placeholder="Last name" maxlength="25" size="25" required>
 						<input class="inputext" id="email" type="email" name="email" placeholder="Email" maxlength="50" size="25" required>
 						<input class="inputext" id="phone" type="tel" name="phone" placeholder="Phone" maxlength="9" size="25" required>
-						<p id="paypal">PayPal link will go here.</p>
+						<br>
+						<p>PayPal link will go here.</p>
+						<br>
 						<p id="errorForm"></p>
 						<input class="submitbutton" type="submit" value="REGISTER">
 					</form>
@@ -193,8 +187,8 @@
 	</div>
 
 	<footer>
-		<h3>All Rights Reserved. CyberDayton 2014.</h3>
-		<h4>Site by <a href="http://jollygoat.com/">Jolly Goat</a>.</h4>
+		<h3>&copy; 2014 CyberDayton, LLC. All Rights Reserved.</h3>
+		<h3>Site by <a href="http://jollygoat.com/">Jolly Goat</a>.</h3>
 	</footer>
 
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
