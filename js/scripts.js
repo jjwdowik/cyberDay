@@ -74,7 +74,6 @@ jQuery(document).ready(function ($) {
         e.preventDefault();
         tempSlide = dataslide;
         dataslide = $(this).attr('data-slide');
-        console.log(" temp " + tempSlide + " datas" + dataslide);
         if(tempSlide > dataslide) {
             //scroll up
             goUpScroll(dataslide);
@@ -113,6 +112,29 @@ jQuery(document).ready(function ($) {
         }
     };
 
+    //check sponsor form
+    function errorCheck2(data) {
+        var error = false;
+        console.log("yeaaah  ");
+        console.log(data['sponsor_phone'].length);
+        if(data['sponsor_phone'].length != 9) {
+            $('#errorForm2').text("Enter a valid phone number");
+            error = true;
+        }
+        //add other checks if needed?
+
+        if(error) {
+            $('#errorForm2').fadeIn( 2000, function () {
+                $('#errorForm2').delay( 4000 ).fadeOut("slow");
+            }); 
+            return false;
+        }
+        else {
+            return true;
+        }
+    };
+
+
 
 
 
@@ -146,7 +168,35 @@ jQuery(document).ready(function ($) {
     });
 
 
+    //submit Sponsor Form ajax
+    $("#sponsorForm").submit(function() {
+        var sponsorData = {};
 
+        sponsorData['sponsor_name'] = $('#name2').val();
+        sponsorData['sponsor_email'] = $('#email2').val();
+        sponsorData['sponsor_phone'] = $('#phone2').val(); 
+        sponsorData['sponsor_message'] = $('#message').val();
+
+        console.log(sponsorData['sponsor_name']);
+
+        if(errorCheck2(sponsorData)) {
+
+            var url = "submitted2.php"; // the script where you handle the form input.
+            $.ajax({
+                   type: "POST",
+                   url: url,
+                   data: sponsorData, // serializes the form's elements.
+                   success: function(sponsorData)
+                   {
+                       $('#sponsorForm').fadeOut("slow", function () {
+                            $('#thankYou2').fadeIn( 2000); 
+                       });
+                       
+                   }
+                 });
+        }
+        return false;
+    });
 
 
 });

@@ -99,17 +99,18 @@ h2 {
 /* Slide 1 */ 
 
 #slide1{
+	background-image:url('../images/dayton2.jpg');
 	background-color:#ffffff;
 }
 #slide1 h1 {
 	font-size: 3.8em;
 	line-height: 1em;
-	color:#8a8683;
+	color:#ffffff;
 	font-weight: 700;
 }
 #slide1 h2 {
 	font-size: 2em;
-	color: #8a8683;
+	color: #ffffff;
 	line-height: 1.5em;
 	padding-bottom:20px;
 	font-weight: 400;
@@ -121,8 +122,7 @@ h2 {
 /* Slide 2 */ 
 
 #slide2{
-	background-image:url('../images/dayton2.jpg');
-	background-color:#f68f67;
+	background-color:#8a8683;
 	color:#ffffff;
 }
 
@@ -141,9 +141,9 @@ h2 {
 	line-height: 1.5em;
 	padding-bottom:20px;
 	font-weight: 400;
-	background: rgb(0, 0, 0);
+/*	background: rgb(0, 0, 0);
     background: rgba(0, 0, 0, .5);
-    border-radius:2em;
+    border-radius:2em;*/
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -208,6 +208,7 @@ h2 {
 
 
 #slide5{
+	background-image:url('../images/daytonAir.jpg');
 	background-color:#A62800;
 	color:#ffffff;
 	line-height:0px;
@@ -225,7 +226,7 @@ h2 {
 }
 #slide5 h3{
 	font-size:1.4em;
-	padding-bottom:2em;
+	padding-bottom:1em;
 	font-weight:500;
 }
 #paypal{
@@ -257,6 +258,7 @@ textarea{
 	display:block;
 	margin-top:0.5em;
 	margin-bottom:0.5em;
+	text-align: center;
 }
 
 .submitbutton{
@@ -273,6 +275,7 @@ textarea{
 	border:none;
 	background-color:#000000;
 	color:#ffffff;
+
 }
 
 #thankYou {
@@ -280,7 +283,7 @@ textarea{
 
 }
 
-#thankYou h2 {
+#thankYou p {
 	color: #4DB6C4;
 }
 
@@ -312,6 +315,21 @@ textarea{
 	line-height: 0px;
 	padding-bottom:20px;
 	font-weight: 400;
+}
+
+#thankYou2 {
+	display: none;
+
+}
+
+#thankYou2 p {
+	color: #4DB6C4;
+}
+
+#errorForm2 {
+	display: none;
+	color: black;
+	padding-left: 1em;
 }
 
 
@@ -414,7 +432,7 @@ footer{
 	line-height: 1em;
 }
 #slide4 h2 {
-	line-height: 1em;
+	line-height: 1.8em;
 }
 
 #slide5 h1 {
@@ -422,6 +440,21 @@ footer{
 	line-height: 1em;
 }
 
+/*center text for forms*/
+.inputext{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+textarea{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.submitbutton{
+	margin-left: auto;
+	margin-right: auto;
+}
 
 
 /* Nav css changes*/
@@ -531,7 +564,7 @@ a#pull:hover {
 	line-height: 1em;
 }
 #slide4 h2 {
-	line-height: 1em;
+	font-size: 1em;
 }
 
 #slide7 h2 {

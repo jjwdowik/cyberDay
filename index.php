@@ -114,9 +114,9 @@
 		<div class="container clearfix">
 			<div id="content" class="grid_12">
 				<h1>Registration</h1>
-				<h3>100 student seats available. $20.00 per person.</h3>
+				<h3>100 student seats available.</h3><h3> $20.00 per person.</h3>
 				<div id="thankYou">
-					<h1>You have successfully registered for CyberDayton 2014.</h1>
+					<p>You have successfully registered </p><br /><p> for CyberDayton 2014.</p>
 				</div>
 				<div id="contactForm">
 					<form name="htmlform">
@@ -161,13 +161,19 @@
 				<h2>LANYARD. $1000</h2>
 				<p>Each attendee will receive a lanyard attached to a badge upon entering the symposium. You may provide your lanyard.</p>
 				<br>
-				<form name="sponsor_form">
-					<input class="inputext" id="name" type="text" name="sponsor_name" placeholder="Sponsor Name" maxlength="25" size="25" required>
-					<input class="inputext" id="email" type="email" name="sponsor_email" placeholder="Email" maxlength="50" size="25" required>
-					<input class="inputext" id="phone" type="tel" name="sponsor_phone" placeholder="Phone" maxlength="9" size="25" required>
-					<textarea name="sponsor_message" placeholder="Message"></textarea>
-					<input class="submitbutton" type="submit" value="SPONSOR">
-				</form>
+				<div id="thankYou2">
+					<p>Thank you for your interest in becoming a sponsor for CyberDayton 2014!</p>
+				</div>
+				<div id="sponsorForm">
+					<form name="sponsor_form">
+						<input class="inputext" id="name2" type="text" name="sponsor_name" placeholder="Sponsor Name" maxlength="25" size="25" required>
+						<input class="inputext" id="email2" type="email" name="sponsor_email" placeholder="Email" maxlength="50" size="25" required>
+						<input class="inputext" id="phone2" type="tel" name="sponsor_phone" placeholder="Phone" maxlength="9" size="25" required>
+						<textarea name="sponsor_message" id="message" placeholder="Message"></textarea>
+						<p id="errorForm2"></p>
+						<input class="submitbutton" type="submit" value="SPONSOR">
+					</form>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -187,8 +193,8 @@
 	</div>
 
 	<footer>
-		<h3>Site by <a href="http://jollygoat.com/">Jolly Goat</a>.</h3>
-		<h4>Made in Michigan.</h4>
+		<h3>All Rights Reserved. CyberDayton 2014.</h3>
+		<h4>Site by <a href="http://jollygoat.com/">Jolly Goat</a>.</h4>
 	</footer>
 
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
