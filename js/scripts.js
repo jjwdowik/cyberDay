@@ -115,8 +115,6 @@ jQuery(document).ready(function ($) {
     //check sponsor form
     function errorCheck2(data) {
         var error = false;
-        console.log("yeaaah  ");
-        console.log(data['sponsor_phone'].length);
         if(data['sponsor_phone'].length != 9) {
             $('#errorForm2').text("Enter a valid phone number");
             error = true;
@@ -176,8 +174,6 @@ jQuery(document).ready(function ($) {
         sponsorData['sponsor_email'] = $('#email2').val();
         sponsorData['sponsor_phone'] = $('#phone2').val(); 
         sponsorData['sponsor_message'] = $('#message').val();
-
-        console.log(sponsorData['sponsor_name']);
 
         if(errorCheck2(sponsorData)) {
 
