@@ -42,8 +42,7 @@
 	<div class="slide" id="slide1" data-slide="1" data-stellar-background-ratio="0.5">
 		<div class="container clearfix">
 			<div id="content" class="grid_12">
-				<!-- <h1>On Date TBD...</h1> -->
-				<div id="date" class="grid_5">5 June 2014</div>
+				<div id="date" class="grid_5"># Month 2014</div>
 				<div id="venue" class="grid_7 omega">
 					<a href="http://www.hopehotel.com/">Hope Hotel &amp; Richard C. Holbrooke Conference Center</a><br>
 					Building #823, Area A, Gate 12A<br>
@@ -83,24 +82,21 @@
 		<div class="container clearfix">
 			<div id="content" class="grid_12">
 				<h1>Registration</h1>
-				<h3> $20.00 per person.</h3>
-				<h3>100 student seats available.</h3>
+				<h3>$20.00 per person. 100 student seats available.</h3>
 				<div id="thankYou">
 					<p>You have successfully registered</p><br><p>for CyberDayton 2014.</p>
 				</div>
 				<div id="contactForm">
 					<form name="htmlform">
 						<label for="firstname">First Name</label>
-						<input class="inputext" id="name" type="text" name="firstname" maxlength="25" size="25" required>
+						<input id="name" type="text" name="firstname" maxlength="25" size="25" required>
 						<label for="lastname">Last Name</label>
-						<input class="inputext" id="lastname" type="text" name="lastname" maxlength="25" size="25" required>
+						<input id="lastname" type="text" name="lastname" maxlength="25" size="25" required>
 						<label for="email">Email Address</label>
-						<input class="inputext" id="email" type="email" name="email" maxlength="50" size="25" required>
+						<input id="email" type="email" name="email" maxlength="50" size="25" required>
 						<label for="phone">Phone Number</label>
-						<input class="inputext" id="phone" type="tel" name="phone" maxlength="9" size="25" required>
-						<br>
+						<input id="phone" type="tel" name="phone" maxlength="9" size="25" required>
 						<p>PayPal link will go here.</p>
-						<br>
 						<p id="errorForm"></p>
 						<input class="submitbutton" type="submit" value="REGISTER">
 					</form>
@@ -142,10 +138,14 @@
 				</div>
 				<div id="sponsorForm">
 					<form name="sponsor_form">
-						<input class="inputext" id="name2" type="text" name="sponsor_name" placeholder="Sponsor Name" maxlength="25" size="25" required>
-						<input class="inputext" id="email2" type="email" name="sponsor_email" placeholder="Email" maxlength="50" size="25" required>
-						<input class="inputext" id="phone2" type="tel" name="sponsor_phone" placeholder="Phone" maxlength="9" size="25" required>
-						<textarea name="sponsor_message" id="message" placeholder="Message"></textarea>
+						<label for="sponsor_name">Name</label>
+						<input id="name2" type="text" name="sponsor_name" maxlength="25" size="25" required>
+						<label for="sponsor_email">Email</label>
+						<input id="email2" type="email" name="sponsor_email" maxlength="50" size="25" required>
+						<label for="sponsor_phone">Phone</label>
+						<input id="phone2" type="tel" name="sponsor_phone" maxlength="9" size="25" required>
+						<label for="sponsor_message">Message</label>
+						<textarea name="sponsor_message" id="message"></textarea>
 						<p id="errorForm2"></p>
 						<input class="submitbutton" type="submit" value="SPONSOR">
 					</form>
@@ -169,8 +169,8 @@
 	</div>
 
 	<footer>
-		<h3>&copy; 2014 CyberDayton, LLC. All Rights Reserved.</h3>
-		<h3>Site by <a href="http://jollygoat.com/">Jolly Goat</a>.</h3>
+		<p>&copy; <?php echo(date('Y')); ?> CyberDayton, LLC. All Rights Reserved.</p>
+		<p>Site by <a href="http://jollygoat.com/">Jolly Goat</a>.</p>
 	</footer>
 
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
