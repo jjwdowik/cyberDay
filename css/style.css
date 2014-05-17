@@ -99,12 +99,7 @@ h2 {
 /* Slide 1 */ 
 
 #slide1{
-<<<<<<< HEAD
 	background-image:url('../images/daytonbronze.png');
-=======
-	background-image:url('../images/daytonnight.jpg');
-	/*background-image:url('../images/DaySky.gif');*/
->>>>>>> 1bc9a35aa3aa16d46842750e0e17752ccc35859d
 	background-color:#ffffff;
 	text-align: justify;
 }
