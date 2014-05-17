@@ -28,12 +28,10 @@
 			<div id="nav" class="grid_8 omega">
 				<ul class="navigation">
 					<li data-slide="1" class="nav-link active">Home</li>
-					<!--<li data-slide="2" class="nav-link">Event</li>-->
-					<li data-slide="3" class="nav-link">Location</li>
-					<li data-slide="4" class="nav-link">Schedule</li>
-					<li data-slide="5" class="nav-link">Registration</li>
-					<li data-slide="6" class="nav-link">Sponsors</li>
-					<li data-slide="7" class="nav-link">Partners</li>					
+					<li data-slide="2" class="nav-link">Schedule</li>
+					<li data-slide="3" class="nav-link">Registration</li>
+					<li data-slide="4" class="nav-link">Sponsors</li>
+					<li data-slide="5" class="nav-link">Partners</li>					
 				</ul>
 			</div>
 			<a href="#" id="pull"><p class="cyberlogo">CYBERDAYTON</p></a>
@@ -44,7 +42,13 @@
 	<div class="slide" id="slide1" data-slide="1" data-stellar-background-ratio="0.5">
 		<div class="container clearfix">
 			<div id="content" class="grid_12">
-				<h1>On Date TBD...</h1>
+				<!-- <h1>On Date TBD...</h1> -->
+				<div id="date" class="grid_5">5 June 2014</div>
+				<div id="venue" class="grid_7 omega">
+					<a href="http://www.hopehotel.com/">Hope Hotel &amp; Richard C. Holbrooke Conference Center</a><br>
+					Building #823, Area A, Gate 12A<br>
+					Wright-Patterson Air Force Base, Ohio 45433
+				</div>
 				<h2>Security experts from government, defense, finance, and healthcare will convene in Dayton, Ohio to showcase their latest innovations.
 				For practitioners of cyber security, <b>CyberDayton</b> is hosted by local professionals to display the best practices for protecting sensitive information, IT infrastructure, and system resources.</h2>
 				<p>Facebook and Twitter links will go here.</p>
@@ -52,34 +56,7 @@
 		</div>
 	</div>
 
-<!--
-
-	<div class="slide" id="slide2" data-slide="2" data-stellar-background-ratio="0.5">
-		<div class="container clearfix">
-			<div id="content" class="grid_12">
-				<h1>Event</h1>
-				<h2>For practitioners of cyber security, <b>CyberDayton</b> is a public event hosted by local security professionals to showcase the best practices for protecting sensitive information, IT infrastructure, and system resources.<br><br>
-					Top companies and experts from government, defense, finance, and healthcare will convene in Dayton, Ohio to display the latest innovations in cyber security.</h2>
-			</div>
-		</div>
-	</div>
-
--->
-
-	<div class="slide" id="slide3" data-slide="3" data-stellar-background-ratio="0.5">
-		<div class="container clearfix">
-			<div id="content" class="grid_12">
-				<h1>Location</h1>
-				<h2><a href="http://www.hopehotel.com/">Hope Hotel &amp; Richard C. Holbrooke Conference Center</a><br>
-				Building #823, Area A, Gate 12A<br>
-				Wright-Patterson Air Force Base, Ohio 45433</h2>
-			</div>
-		</div>
-	</div>
-
-
-
-	<div class="slide" id="slide4" data-slide="4" data-stellar-background-ratio="0.2">
+	<div class="slide" id="slide2" data-slide="2" data-stellar-background-ratio="0.2">
 		<div class="container clearfix">
 			<div id="content" class="grid_12">
 				<h1>Schedule</h1>
@@ -102,20 +79,25 @@
 		</div>
 	</div>
 
-	<div class="slide" id="slide5" data-slide="5" data-stellar-background-ratio="0.2">
+	<div class="slide" id="slide3" data-slide="3" data-stellar-background-ratio="0.2">
 		<div class="container clearfix">
 			<div id="content" class="grid_12">
 				<h1>Registration</h1>
-				<h3>100 student seats available.</h3><h3> $20.00 per person.</h3>
+				<h3> $20.00 per person.</h3>
+				<h3>100 student seats available.</h3>
 				<div id="thankYou">
-					<p>You have successfully registered </p><br /><p> for CyberDayton 2014.</p>
+					<p>You have successfully registered</p><br><p>for CyberDayton 2014.</p>
 				</div>
 				<div id="contactForm">
 					<form name="htmlform">
-						<input class="inputext" id="name" type="text" name="firstname" placeholder="First name" maxlength="25" size="25" required>
-						<input class="inputext" id="lastname" type="text" name="lastname" placeholder="Last name" maxlength="25" size="25" required>
-						<input class="inputext" id="email" type="email" name="email" placeholder="Email" maxlength="50" size="25" required>
-						<input class="inputext" id="phone" type="tel" name="phone" placeholder="Phone" maxlength="9" size="25" required>
+						<label for="firstname">First Name</label>
+						<input class="inputext" id="name" type="text" name="firstname" maxlength="25" size="25" required>
+						<label for="lastname">Last Name</label>
+						<input class="inputext" id="lastname" type="text" name="lastname" maxlength="25" size="25" required>
+						<label for="email">Email Address</label>
+						<input class="inputext" id="email" type="email" name="email" maxlength="50" size="25" required>
+						<label for="phone">Phone Number</label>
+						<input class="inputext" id="phone" type="tel" name="phone" maxlength="9" size="25" required>
 						<br>
 						<p>PayPal link will go here.</p>
 						<br>
@@ -127,7 +109,7 @@
 		</div>
 	</div>
 
-	<div class="slide" id="slide6" data-slide="6" data-stellar-background-ratio="0.2">
+	<div class="slide" id="slide4" data-slide="4" data-stellar-background-ratio="0.2">
 		<div class="container clearfix">
 			<div id="content" class="grid_12">
 				<h1>Sponsors</h1>
@@ -172,7 +154,7 @@
 		</div>
 	</div>
 
-	<div class="slide" id="slide7" data-slide="7" data-stellar-background-ratio="0.2">
+	<div class="slide" id="slide5" data-slide="5" data-stellar-background-ratio="0.2">
 		<div class="container clearfix">
 			<div id="content" class="grid_12">
 				<h1>Partners</h1>
