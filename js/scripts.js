@@ -36,11 +36,11 @@ jQuery(document).ready(function ($) {
     mywindow.scroll(function () {
         if (mywindow.scrollTop() == 0) {          
             $('.navigation li[data-slide="1"]').addClass('active');
-            $('.navigation li[data-slide="3"]').removeClass('active');
+            $('.navigation li[data-slide="2"]').removeClass('active');
         }
         if(mywindow.scrollTop() + mywindow.height() == $(document).height()) {
             // dataslide = $(this).attr('data-slide');
-            $('.navigation li[data-slide="' + 7 + '"]').addClass('active').prev().removeClass('active');
+            $('.navigation li[data-slide="' + 5 + '"]').addClass('active').prev().removeClass('active');
         }
 
     });

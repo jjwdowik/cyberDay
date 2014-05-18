@@ -44,9 +44,11 @@
 			<div id="content" class="grid_12">
 				<div id="date" class="grid_5"># Month 2014</div>
 				<div id="venue" class="grid_7 omega">
-					<a href="http://www.hopehotel.com/">Hope Hotel &amp; Richard C. Holbrooke Conference Center</a><br>
-					Building #823, Area A, Gate 12A<br>
+					<a href="http://www.hopehotel.com/" target="_blank">Hope Hotel &amp; Richard C. Holbrooke Conference Center</a><br>
+					Building #823, Area A, Gate 12A<br />
 					Wright-Patterson Air Force Base, Ohio 45433
+					<br />
+					<a href="https://maps.google.com/maps?q=Building+%23823,+Area+A,+Gate+12A+Wright-Patterson+Air+Force+Base,+Ohio+45433&hl=en&ll=39.794804,-84.084678&spn=0.008227,0.01899&sll=47.613028,-122.342064&sspn=0.230981,0.607681&hnear=Area+B+Pedestrian+Gate,+Fairborn,+Ohio+45324&t=m&z=16&iwloc=A"  target="_blank"> View in Google Maps </a>
 				</div>
 				<h2>Security experts from government, defense, finance, and healthcare will convene in Dayton, Ohio to showcase their latest innovations.
 				For practitioners of cyber security, <b>CyberDayton</b> is hosted by local professionals to display the best practices for protecting sensitive information, IT infrastructure, and system resources.</h2>
