@@ -86,7 +86,7 @@
 				<h1>Registration</h1>
 				<h3>$20.00 per person. 100 student seats available.</h3>
 				<div id="thankYou">
-					<p>You have successfully registered</p><br><p>for CyberDayton 2014.</p>
+					<p>You have successfully registered</p><p>for CyberDayton 2014.</p>
 				</div>
 				<div id="contactForm">
 					<form name="htmlform">

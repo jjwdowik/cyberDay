@@ -198,7 +198,7 @@ input[type=submit] {
 	}
 
 #thankYou { display: none; }
-	#thankYou p { color: #4DB6C4; }
+	#thankYou p { color: rgba(141, 0, 0, 1); font-size: 1.5em; }
 
 #errorForm {
 	display: none;
@@ -230,7 +230,7 @@ input[type=submit] {
 	}
 
 #thankYou2 { display: none; }
-	#thankYou2 p { color: #4DB6C4; }
+	#thankYou2 p { color: #4DB6C4; font-size: 1.4em; }
 
 #errorForm2 {
 	display: none;
