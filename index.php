@@ -42,7 +42,7 @@
 	<div class="slide" id="slide1" data-slide="1" data-stellar-background-ratio="0.5">
 		<div class="container clearfix">
 			<div id="content" class="grid_12">
-				<div id="date" class="grid_5"># Month 2014</div>
+				<div id="date" class="grid_5">Summer 2015</div>
 				<div id="venue" class="grid_7 omega">
 					<a href="http://www.hopehotel.com/" target="_blank">Hope Hotel &amp; Richard C. Holbrooke Conference Center</a><br>
 					Building #823, Area A, Gate 12A<br />
@@ -52,7 +52,6 @@
 				</div>
 				<h2>Security experts from government, defense, finance, and healthcare will convene in Dayton, Ohio to showcase their latest innovations.
 				For practitioners of cyber security, <b>CyberDayton</b> is hosted by local professionals to display the best practices for protecting sensitive information, IT infrastructure, and system resources.</h2>
-				<p>Facebook and Twitter links will go here.</p>
 			</div>
 		</div>
 	</div>
@@ -98,7 +97,6 @@
 						<input id="email" type="email" name="email" maxlength="50" size="25" required>
 						<label for="phone">Phone Number</label>
 						<input id="phone" type="tel" name="phone" maxlength="9" size="25" required>
-						<p>PayPal link will go here.</p>
 						<p id="errorForm"></p>
 						<input class="submitbutton" type="submit" value="REGISTER">
 					</form>
