@@ -11,10 +11,12 @@ p { font-size: 1.1em; }
 a {
 	color: #F87431;
 	text-decoration: none;
+	border-bottom: 1px solid #F87431;
 }
 	a:hover {
 		color: #31B5F7 !important;
 		text-decoration: none;
+		border-bottom: 1px solid #31B5F7;
 	}
 	a:visited {
 		color: #F87431;
@@ -51,15 +53,13 @@ input, textarea {
 input[type=submit] {
 	text-align: center;
 	margin-top: 1em;
-	background-color: #2B1B17;
+	background-color: #000000;
 	color: #ffffff;
 	font-size: 1.5em;
 	text-transform: uppercase;
 	font-weight: 700;
 }
-	input[type=submit]:hover {
-		color: #31B5F7;
-	}
+	input[type=submit]:hover { background-color: #333333; }
 
 
 /* Navigation */
@@ -70,6 +70,7 @@ input[type=submit] {
 	height:auto; 
 	background-color:#ffffff;
 	z-index:100;
+	box-shadow:0 0 1.5em #8a8683;
 }
 #titletext {
 	font-family: Neuro, NeuroIE, sans-serif;
@@ -121,7 +122,7 @@ input[type=submit] {
 
 /* Slide 1 */ 
 #slide1{
-	background-image:url('../images/daytonbronze.png');
+	background-image:url('../images/daytongray.png');
 	background-color:#ffffff;
 	text-align: justify;
 }
@@ -263,13 +264,13 @@ input[type=submit] {
 /* Footer */
 footer{
 	text-align: center;
-	background-color: #2B1B17;
-	color: #ffffff;
-	padding-top: 1.5em;
-	padding-bottom: 1.5em;
+	background-color: #ffffff;
+	color: #8a8683;
+	padding-top: 1em;
+	padding-bottom: 1em;
 }
 	footer p {
-		font-size: 1.5em;
+		font-size: 1.2em;
 		font-weight: 700;
 	}
 
@@ -354,17 +355,20 @@ li.nav-link{
     height:auto;
     padding: 10px;
     text-align: center;
-    background-color:#2B1B17;
+    background-color:#ffffff;
+    color: #F87431;
 }
 li.nav-link:hover{
     border-bottom:none;
     cursor:pointer;
-    background-color:#458FFF;
+    background-color: #31B5F7;
+    color: #ffffff;
 }
 .selected{
     border-bottom:none;
     cursor:pointer;
-    background-color:#458FFF;
+    background-color: #31B5F7;
+    color: #ffffff;
 }
 #nav{
     display: none;
@@ -377,10 +381,12 @@ a#pull {
     z-index:10;
     height:2.5em;
     width:100%;
-    background-color: gray;
+    background-color: #ffffff;
     text-align:center;
     letter-spacing:0.1em;
-    box-shadow:0 0 1.5em #2B1B17;  
+    box-shadow:0 0 1.5em #8a8683;
+    color: #8a8683;
+    border: none;
 }
 a#pull:after {
     content:"";
@@ -392,8 +398,7 @@ a#pull:after {
     right: .3em;
     top: 0.6em;
 }
-a#pull:hover {
-}
+a#pull:hover { }
 .cyberlogo {
 	font-family: Neuro, sans-serif;
 	line-height: 0;
@@ -401,9 +406,7 @@ a#pull:hover {
 	letter-spacing: 0.03;
 	margin-top: .8em;
 }
-#logo {
-	display: none;
-} 
+#logo { display: none; } 
 
 
 

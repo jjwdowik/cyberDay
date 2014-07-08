@@ -98,7 +98,7 @@
 						<label for="phone">Phone Number</label>
 						<input id="phone" type="tel" name="phone" maxlength="9" size="25" required>
 						<p id="errorForm"></p>
-						<input class="submitbutton" type="submit" value="REGISTER">
+						<input type="submit" value="REGISTER">
 					</form>
 				</div>
 			</div>
@@ -147,7 +147,7 @@
 						<label for="sponsor_message">Message</label>
 						<textarea name="sponsor_message" id="message"></textarea>
 						<p id="errorForm2"></p>
-						<input class="submitbutton" type="submit" value="SPONSOR">
+						<input type="submit" value="SPONSOR">
 					</form>
 				</div>
 			</div>
@@ -169,8 +169,7 @@
 	</div>
 
 	<footer>
-		<p>&copy; <?php echo(date('Y')); ?> CyberDayton, LLC. All Rights Reserved.</p>
-		<p>Site by <a href="http://jollygoat.com/">Jolly Goat</a>.</p>
+		<p>&copy; <?php echo(date('Y')); ?> CyberDayton, LLC. All Rights Reserved. Site by <a href="http://jollygoat.com/">Jolly Goat</a>.</p>
 	</footer>
 
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
